@@ -1,0 +1,58 @@
+.section-service {
+    background-color: #1D74E5;
+    padding: 30px;
+}
+
+.service-image {
+    display: flex;
+    gap: 30px;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.services-texte {
+    margin-top: 50px;
+    justify-content: center;
+}
+
+.pp {
+    padding: 37px;
+}
+
+.medecin-image {
+    display: flex;
+    gap: 16px;
+    margin-top: 30px;
+}
+
+.section-medecin {
+    background-color: #D9D9D9;
+    padding: 30px;
+    text-align: center;
+}
+
+.photo {
+    background-color: #ffffff;
+    border-radius: 16px;
+}
+
+.section-medecin h2 {
+    font-weight: 700;
+    font-size: 30px;
+    color: #000000;
+}
+
+.photo h3 {
+    font-weight: 700;
+    font-size: 20px;
+    color: #000000;
+    margin-top: 10px;
+    margin-bottom: 0;
+}
+
+.photo p {
+    font-weight: 700;
+    font-size: 16px;
+    color: #6F6A6A;
+    margin-top: 0;
+}

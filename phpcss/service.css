@@ -1,0 +1,201 @@
+/* Styles pour l'en-tête (header) */
+
+.header {
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: #FFFFFF;
+    padding: 30px;
+}
+
+.main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.main-li {
+    display: flex;
+    justify-content: flex-end;
+    gap: 30px;
+    list-style: none;
+    margin-bottom: 0;
+}
+
+.main-li a {
+    text-decoration: none;
+    color: #000000;
+    font-weight: 700;
+    font-size: 16px;
+}
+
+.main-li .a {
+    padding: 16px 16px;
+    border-radius: 8px;
+    background-color: #02457A;
+    color: #FFFFFF;
+}
+
+h1 {
+    text-align: center;
+    padding: 30px;
+}
+
+
+/* Styles pour les services */
+
+.services {
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 20px;
+    flex-direction: row;
+    display: flex;
+}
+
+.service {
+    flex: 1 1 300px;
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    text-align: center;
+    opacity: 0;
+    transform: translateY(20px);
+    transition: all 0.5s ease;
+}
+
+.service img {
+    max-width: 100%;
+    border-radius: 8px;
+}
+
+.service h2 {
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+.service p {
+    color: #666;
+}
+
+.service.show {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+
+/* Styles pour les médecins */
+
+.medecin {
+    display: flex;
+    /* Utilisation de flexbox */
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 20px;
+    flex-direction: row;
+    /* Afficher les médecins horizontalement */
+}
+
+.medecin-info {
+    flex: 1 1 300px;
+    /* Chaque info de médecin occupe une partie égale de l'espace */
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    text-align: center;
+    opacity: 0;
+    transform: translateY(20px);
+    transition: all 0.5s ease;
+}
+
+.medecin-info img {
+    max-width: 100%;
+    border-radius: 8px;
+}
+
+.medecin-info h3 {
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+.medecin-info p {
+    color: #666;
+}
+
+.medecin-info.show {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+
+/* Styles pour le pied de page (footer) */
+
+.footer {
+    background-color: #1c1c1c;
+    color: #ffffff;
+    padding: 60px 0;
+}
+
+.footer .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.footer-col {
+    flex: 1 1 300px;
+    margin-bottom: 40px;
+}
+
+.footer-col h4 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.footer-col ul {
+    padding: 0;
+    list-style: none;
+}
+
+.footer-col ul li {
+    margin-bottom: 10px;
+}
+
+.footer-col ul li a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.footer-col ul li a:hover {
+    color: #f0f0f0;
+}
+
+.go-top {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #02457A;
+    color: #ffffff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    z-index: 99;
+}
+
+.go-top:hover {
+    background-color: #013663;
+}
+
+.container {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 20px;
+}

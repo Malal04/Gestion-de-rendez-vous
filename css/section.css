@@ -1,0 +1,108 @@
+.redd {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+    background-color: #FFFFFF;
+}
+
+.redd-pat {
+    text-align: center;
+}
+
+.redd-pat h2 {
+    font-weight: 700;
+    font-size: 30px;
+    color: #0745A8;
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+.redd-pat p {
+    font-weight: 400;
+    font-size: 16px;
+    color: #0745A8;
+    margin-top: 8px;
+}
+
+.section-grite {
+    background-color: #F0EFEF;
+    padding: 60px;
+}
+
+.propos {
+    display: flex;
+    gap: 30px;
+}
+
+.propos-text {
+    padding: 25px;
+}
+
+.ntr-1 h1 {
+    font-weight: 700;
+    font-size: 30px;
+    color: #000000;
+}
+
+.ntr-1 p {
+    font-weight: 600;
+    font-size: 20px;
+    color: #6F6A6A;
+    margin-top: 20px;
+}
+
+.ntr-0 li {
+    list-style: none;
+    margin-top: 16px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    color: #000000;
+}
+
+.ntr-0 ul {
+    padding: 0;
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+
+.ntr-0 a {
+    text-decoration: none;
+    color: #000000;
+    font-weight: 700;
+    font-size: 16px;
+    padding: 16px 16px;
+    border-radius: 8px;
+    background-color: #02457A;
+    color: #FFFFFF;
+    justify-content: center;
+}
+
+.services {
+    display: flex;
+    gap: 95px;
+}
+
+.service {
+    text-align: center;
+}
+
+.image-tt h3 {
+    margin-top: 16px;
+    color: #000000;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.services-text h2 {
+    color: #FFFFFF;
+    font-weight: 800;
+    font-size: 30px;
+}
+
+.services-text p {
+    color: #D9D9D9;
+    font-weight: 600;
+    font-size: 16px;
+    margin-top: 8px;
+}
